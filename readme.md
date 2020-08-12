@@ -4,7 +4,14 @@ Based off the excellent work from https://github.com/lukasmartinelli/naturaleart
 
 This fork from Lukas's work is for
 
-* testing local hosting of raster and vector tiles via `http://localhost:5000`
+* testing local hosting of raster and vector tiles via `http://localhost:5000` or from a server
+ * Open in default browser on localhost
+   * `serve . -l 5000`
+   * http://localhost:5000/maps/natural_earth.raster.html
+   * http://localhost:5000/maps/natural_earth.vector.html
+ * If needed, open from roblabs.com (The style favors local over a remote URL, please adjust the style if needed)
+   * https://naturalearthtiles.roblabs.com/maps/natural_earth.raster.html
+   * https://naturalearthtiles.roblabs.com/maps/natural_earth.vector.html
 * Testing of the key `destination` within the key `sources`
 
 ```json
