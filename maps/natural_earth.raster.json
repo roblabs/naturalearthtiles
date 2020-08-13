@@ -89,7 +89,7 @@
             "source": "ne_2_hr_lc",
             "interactive": true,
             "layout": {
-                "visibility": "visible"
+                "visibility": "none"
             },
             "paint": {}
         },
@@ -99,7 +99,7 @@
             "source": "ne_2_hr_lc_sr",
             "interactive": true,
             "layout": {
-                "visibility": "visible"
+                "visibility": "none"
             },
             "paint": {}
         },
@@ -109,7 +109,7 @@
             "source": "hyp_hr",
             "interactive": true,
             "layout": {
-                "visibility": "visible"
+                "visibility": "none"
             },
             "paint": {}
         },
@@ -129,7 +129,7 @@
             "source": "sr_hr",
             "interactive": true,
             "layout": {
-                "visibility": "visible"
+                "visibility": "none"
             },
             "paint": {}
         },
@@ -139,7 +139,7 @@
             "source": "gray_hr_sr",
             "interactive": true,
             "layout": {
-                "visibility": "visible"
+                "visibility": "none"
             },
             "paint": {}
         }
