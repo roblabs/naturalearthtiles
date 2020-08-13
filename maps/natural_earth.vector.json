@@ -52,7 +52,6 @@
         "natural_earth": {
             "destination": "Resources/natural_earth",
             "tiles": [
-                "http://localhost:5000/tiles/natural_earth.vector/{z}/{x}/{y}.pbf",
                 "https://naturalearthtiles.roblabs.com/tiles/natural_earth.vector/{z}/{x}/{y}.pbf"
             ],
             "maxzoom": 7,
@@ -61,7 +60,6 @@
         "ne_2_hr_lc_sr": {
             "destination": "Resources/ne_2_hr_lc_sr",
             "tiles": [
-                "http://localhost:5000/tiles/natural_earth_2_shaded_relief.raster/{z}/{x}/{y}.png",
                 "https://naturalearthtiles.roblabs.com/tiles/natural_earth_2_shaded_relief.raster/{z}/{x}/{y}.png"
             ],
             "type": "raster",
